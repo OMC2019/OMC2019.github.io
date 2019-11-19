@@ -1,11 +1,11 @@
-title: Texture Theme
-author: GitHub User
-email: your-email@domain.com
-description: > # this means to ignore newlines until "show_exerpts:"
+title: Texture Theme  # 博客的主题
+author: GitHub User   # 默认每一篇文章的作者
+email: your-email@domain.com  # 邮箱
+description: > # 对于博客的描述 # 在"show_exerpts:"之前，忽略分行，都视为同一个客体
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-show_excerpts: true # set to true to show excerpts on the homepage
+show_excerpts: true # 如果选择 true，则在主页上展示文章摘要，如果选择 false，则不展示
 # baseurl: /texture
 
 # Minima date format
@@ -13,8 +13,8 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 
-permalink: /posts/:title/
-texture:
+permalink: /posts/:title/  # 文章展示时的永久链接，如果不设置，则文章链接会变成 xxx.github.io/post/xxxx.html 仅作美观使用
+texture:  # 这个主题相关的一些特殊设置
   title: Adam Denisov
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
@@ -23,7 +23,7 @@ texture:
   showPicker: true
 
   # generate social links in footer
-  social_links:
+  social_links:    # 社交媒体信息
     twitter: thelehhman
     github:  thelehhman
     linkedIn: in/thelehhman
@@ -38,6 +38,6 @@ texture:
 # Build settings
 # theme: texture
 
-plugins:
+plugins:   # 插件
   - jekyll-seo-tag
 #  - jekyll-feed
